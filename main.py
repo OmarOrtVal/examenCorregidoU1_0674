@@ -12,6 +12,7 @@ def main(page: ft.Page):
         weight=ft.FontWeight.BOLD,
         color=ft.Colors.BLACK,
         italic=True,
+        text_align=ft.TextAlign.CENTER,
     )
     
     nombre = ft.TextField(
